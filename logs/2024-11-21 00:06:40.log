@@ -1,0 +1,205 @@
+2024-11-21 00:06:40 [scrapy.utils.log] INFO: Scrapy 2.11.2 started (bot: DataSource)
+2024-11-21 00:06:40 [scrapy.utils.log] INFO: Versions: lxml 5.3.0.0, libxml2 2.12.9, cssselect 1.2.0, parsel 1.9.1, w3lib 2.2.1, Twisted 24.10.0, Python 3.9.6 (default, Oct  4 2024, 08:01:31) - [Clang 16.0.0 (clang-1600.0.26.4)], pyOpenSSL 24.2.1 (OpenSSL 3.3.2 3 Sep 2024), cryptography 43.0.3, Platform macOS-15.1-arm64-arm-64bit
+2024-11-21 00:06:40 [scrapy.addons] INFO: Enabled addons:
+[]
+2024-11-21 00:06:40 [scrapy.extensions.telnet] INFO: Telnet Password: 2b456bfb8509774b
+2024-11-21 00:06:40 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2024-11-21 00:06:40 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'DataSource',
+ 'CONCURRENT_REQUESTS': 32,
+ 'DOWNLOAD_DELAY': 0.5,
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FILE': 'logs/2024-11-21 00:06:40.log',
+ 'LOG_LEVEL': 20,
+ 'NEWSPIDER_MODULE': 'DataSource.spiders',
+ 'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
+ 'SPIDER_MODULES': ['DataSource.spiders'],
+ 'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor'}
+2024-11-21 00:06:40 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2024-11-21 00:06:40 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2024-11-21 00:06:41 [scrapy.middleware] INFO: Enabled item pipelines:
+['DataSource.pipelines.DatasourcePipeline']
+2024-11-21 00:06:41 [scrapy.core.engine] INFO: Spider opened
+2024-11-21 00:06:41 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-11-21 00:06:41 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2024-11-21 00:07:41 [scrapy.extensions.logstats] INFO: Crawled 97 pages (at 97 pages/min), scraped 23 items (at 23 items/min)
+2024-11-21 00:08:41 [scrapy.extensions.logstats] INFO: Crawled 194 pages (at 97 pages/min), scraped 117 items (at 94 items/min)
+2024-11-21 00:09:41 [scrapy.extensions.logstats] INFO: Crawled 293 pages (at 99 pages/min), scraped 209 items (at 92 items/min)
+2024-11-21 00:10:41 [scrapy.extensions.logstats] INFO: Crawled 392 pages (at 99 pages/min), scraped 301 items (at 92 items/min)
+2024-11-21 00:11:41 [scrapy.extensions.logstats] INFO: Crawled 490 pages (at 98 pages/min), scraped 398 items (at 97 items/min)
+2024-11-21 00:12:41 [scrapy.extensions.logstats] INFO: Crawled 586 pages (at 96 pages/min), scraped 494 items (at 96 items/min)
+2024-11-21 00:13:41 [scrapy.extensions.logstats] INFO: Crawled 662 pages (at 76 pages/min), scraped 570 items (at 76 items/min)
+2024-11-21 00:14:41 [scrapy.extensions.logstats] INFO: Crawled 758 pages (at 96 pages/min), scraped 666 items (at 96 items/min)
+2024-11-21 00:15:41 [scrapy.extensions.logstats] INFO: Crawled 855 pages (at 97 pages/min), scraped 761 items (at 95 items/min)
+2024-11-21 00:16:41 [scrapy.extensions.logstats] INFO: Crawled 953 pages (at 98 pages/min), scraped 859 items (at 98 items/min)
+2024-11-21 00:17:41 [scrapy.extensions.logstats] INFO: Crawled 1053 pages (at 100 pages/min), scraped 957 items (at 98 items/min)
+2024-11-21 00:18:41 [scrapy.extensions.logstats] INFO: Crawled 1151 pages (at 98 pages/min), scraped 1051 items (at 94 items/min)
+2024-11-21 00:19:41 [scrapy.extensions.logstats] INFO: Crawled 1249 pages (at 98 pages/min), scraped 1147 items (at 96 items/min)
+2024-11-21 00:20:41 [scrapy.extensions.logstats] INFO: Crawled 1347 pages (at 98 pages/min), scraped 1244 items (at 97 items/min)
+2024-11-21 00:21:41 [scrapy.extensions.logstats] INFO: Crawled 1445 pages (at 98 pages/min), scraped 1329 items (at 85 items/min)
+2024-11-21 00:22:41 [scrapy.extensions.logstats] INFO: Crawled 1543 pages (at 98 pages/min), scraped 1420 items (at 91 items/min)
+2024-11-21 00:23:41 [scrapy.extensions.logstats] INFO: Crawled 1639 pages (at 96 pages/min), scraped 1482 items (at 62 items/min)
+2024-11-21 00:24:41 [scrapy.extensions.logstats] INFO: Crawled 1735 pages (at 96 pages/min), scraped 1578 items (at 96 items/min)
+2024-11-21 00:25:41 [scrapy.extensions.logstats] INFO: Crawled 1830 pages (at 95 pages/min), scraped 1672 items (at 94 items/min)
+2024-11-21 00:26:41 [scrapy.extensions.logstats] INFO: Crawled 1930 pages (at 100 pages/min), scraped 1772 items (at 100 items/min)
+2024-11-21 00:27:41 [scrapy.extensions.logstats] INFO: Crawled 2027 pages (at 97 pages/min), scraped 1869 items (at 97 items/min)
+2024-11-21 00:28:41 [scrapy.extensions.logstats] INFO: Crawled 2125 pages (at 98 pages/min), scraped 1964 items (at 95 items/min)
+2024-11-21 00:29:41 [scrapy.extensions.logstats] INFO: Crawled 2224 pages (at 99 pages/min), scraped 2063 items (at 99 items/min)
+2024-11-21 00:30:41 [scrapy.extensions.logstats] INFO: Crawled 2321 pages (at 97 pages/min), scraped 2158 items (at 95 items/min)
+2024-11-21 00:31:41 [scrapy.extensions.logstats] INFO: Crawled 2415 pages (at 94 pages/min), scraped 2253 items (at 95 items/min)
+2024-11-21 00:32:41 [scrapy.extensions.logstats] INFO: Crawled 2512 pages (at 97 pages/min), scraped 2350 items (at 97 items/min)
+2024-11-21 00:33:41 [scrapy.extensions.logstats] INFO: Crawled 2612 pages (at 100 pages/min), scraped 2449 items (at 99 items/min)
+2024-11-21 00:34:41 [scrapy.extensions.logstats] INFO: Crawled 2709 pages (at 97 pages/min), scraped 2545 items (at 96 items/min)
+2024-11-21 00:35:41 [scrapy.extensions.logstats] INFO: Crawled 2808 pages (at 99 pages/min), scraped 2643 items (at 98 items/min)
+2024-11-21 00:36:41 [scrapy.extensions.logstats] INFO: Crawled 2909 pages (at 101 pages/min), scraped 2743 items (at 100 items/min)
+2024-11-21 00:37:41 [scrapy.extensions.logstats] INFO: Crawled 3009 pages (at 100 pages/min), scraped 2842 items (at 99 items/min)
+2024-11-21 00:38:41 [scrapy.extensions.logstats] INFO: Crawled 3107 pages (at 98 pages/min), scraped 2939 items (at 97 items/min)
+2024-11-21 00:39:41 [scrapy.extensions.logstats] INFO: Crawled 3203 pages (at 96 pages/min), scraped 3035 items (at 96 items/min)
+2024-11-21 00:40:41 [scrapy.extensions.logstats] INFO: Crawled 3303 pages (at 100 pages/min), scraped 3135 items (at 100 items/min)
+2024-11-21 00:41:41 [scrapy.extensions.logstats] INFO: Crawled 3397 pages (at 94 pages/min), scraped 3228 items (at 93 items/min)
+2024-11-21 00:42:41 [scrapy.extensions.logstats] INFO: Crawled 3496 pages (at 99 pages/min), scraped 3327 items (at 99 items/min)
+2024-11-21 00:43:41 [scrapy.extensions.logstats] INFO: Crawled 3596 pages (at 100 pages/min), scraped 3422 items (at 95 items/min)
+2024-11-21 00:44:41 [scrapy.extensions.logstats] INFO: Crawled 3694 pages (at 98 pages/min), scraped 3520 items (at 98 items/min)
+2024-11-21 00:45:41 [scrapy.extensions.logstats] INFO: Crawled 3793 pages (at 99 pages/min), scraped 3617 items (at 97 items/min)
+2024-11-21 00:46:41 [scrapy.extensions.logstats] INFO: Crawled 3891 pages (at 98 pages/min), scraped 3712 items (at 95 items/min)
+2024-11-21 00:47:41 [scrapy.extensions.logstats] INFO: Crawled 3988 pages (at 97 pages/min), scraped 3810 items (at 98 items/min)
+2024-11-21 00:48:41 [scrapy.extensions.logstats] INFO: Crawled 4085 pages (at 97 pages/min), scraped 3906 items (at 96 items/min)
+2024-11-21 00:49:41 [scrapy.extensions.logstats] INFO: Crawled 4183 pages (at 98 pages/min), scraped 4001 items (at 95 items/min)
+2024-11-21 00:50:41 [scrapy.extensions.logstats] INFO: Crawled 4283 pages (at 100 pages/min), scraped 4096 items (at 95 items/min)
+2024-11-21 00:51:41 [scrapy.extensions.logstats] INFO: Crawled 4381 pages (at 98 pages/min), scraped 4194 items (at 98 items/min)
+2024-11-21 00:52:41 [scrapy.extensions.logstats] INFO: Crawled 4481 pages (at 100 pages/min), scraped 4288 items (at 94 items/min)
+2024-11-21 00:53:41 [scrapy.extensions.logstats] INFO: Crawled 4582 pages (at 101 pages/min), scraped 4362 items (at 74 items/min)
+2024-11-21 00:54:41 [scrapy.extensions.logstats] INFO: Crawled 4681 pages (at 99 pages/min), scraped 4460 items (at 98 items/min)
+2024-11-21 00:55:41 [scrapy.extensions.logstats] INFO: Crawled 4776 pages (at 95 pages/min), scraped 4555 items (at 95 items/min)
+2024-11-21 00:56:41 [scrapy.extensions.logstats] INFO: Crawled 4876 pages (at 100 pages/min), scraped 4655 items (at 100 items/min)
+2024-11-21 00:57:41 [scrapy.extensions.logstats] INFO: Crawled 4974 pages (at 98 pages/min), scraped 4753 items (at 98 items/min)
+2024-11-21 00:58:41 [scrapy.extensions.logstats] INFO: Crawled 5072 pages (at 98 pages/min), scraped 4851 items (at 98 items/min)
+2024-11-21 00:59:41 [scrapy.extensions.logstats] INFO: Crawled 5168 pages (at 96 pages/min), scraped 4947 items (at 96 items/min)
+2024-11-21 01:00:41 [scrapy.extensions.logstats] INFO: Crawled 5265 pages (at 97 pages/min), scraped 5040 items (at 93 items/min)
+2024-11-21 01:01:41 [scrapy.extensions.logstats] INFO: Crawled 5362 pages (at 97 pages/min), scraped 5136 items (at 96 items/min)
+2024-11-21 01:02:41 [scrapy.extensions.logstats] INFO: Crawled 5459 pages (at 97 pages/min), scraped 5232 items (at 96 items/min)
+2024-11-21 01:03:41 [scrapy.extensions.logstats] INFO: Crawled 5555 pages (at 96 pages/min), scraped 5328 items (at 96 items/min)
+2024-11-21 01:04:22 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <520 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380c0350&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-21 01:04:37 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <520 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380c25b3&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-21 01:04:41 [scrapy.extensions.logstats] INFO: Crawled 5651 pages (at 96 pages/min), scraped 5422 items (at 94 items/min)
+2024-11-21 01:04:42 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <520 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380c50a3&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-21 01:05:41 [scrapy.extensions.logstats] INFO: Crawled 5752 pages (at 101 pages/min), scraped 5519 items (at 97 items/min)
+2024-11-21 01:06:41 [scrapy.extensions.logstats] INFO: Crawled 5851 pages (at 99 pages/min), scraped 5617 items (at 98 items/min)
+2024-11-21 01:07:41 [scrapy.extensions.logstats] INFO: Crawled 5946 pages (at 95 pages/min), scraped 5712 items (at 95 items/min)
+2024-11-21 01:08:06 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <520 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380c7c45&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-21 01:08:41 [scrapy.extensions.logstats] INFO: Crawled 6045 pages (at 99 pages/min), scraped 5811 items (at 99 items/min)
+2024-11-21 01:09:41 [scrapy.extensions.logstats] INFO: Crawled 6143 pages (at 98 pages/min), scraped 5908 items (at 97 items/min)
+2024-11-21 01:09:42 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <520 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380bdacc&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-21 01:10:04 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <520 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380bdae0&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-21 01:10:41 [scrapy.extensions.logstats] INFO: Crawled 6246 pages (at 103 pages/min), scraped 6008 items (at 100 items/min)
+2024-11-21 01:11:41 [scrapy.extensions.logstats] INFO: Crawled 6344 pages (at 98 pages/min), scraped 6106 items (at 98 items/min)
+2024-11-21 01:12:41 [scrapy.extensions.logstats] INFO: Crawled 6445 pages (at 101 pages/min), scraped 6204 items (at 98 items/min)
+2024-11-21 01:13:41 [scrapy.extensions.logstats] INFO: Crawled 6466 pages (at 21 pages/min), scraped 6226 items (at 22 items/min)
+2024-11-21 01:14:41 [scrapy.extensions.logstats] INFO: Crawled 6544 pages (at 78 pages/min), scraped 6303 items (at 77 items/min)
+2024-11-21 01:15:41 [scrapy.extensions.logstats] INFO: Crawled 6613 pages (at 69 pages/min), scraped 6372 items (at 69 items/min)
+2024-11-21 01:16:23 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <525 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380c745c&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-21 01:16:41 [scrapy.extensions.logstats] INFO: Crawled 6645 pages (at 32 pages/min), scraped 6401 items (at 29 items/min)
+2024-11-21 01:17:41 [scrapy.extensions.logstats] INFO: Crawled 6744 pages (at 99 pages/min), scraped 6500 items (at 99 items/min)
+2024-11-21 01:18:41 [scrapy.extensions.logstats] INFO: Crawled 6842 pages (at 98 pages/min), scraped 6596 items (at 96 items/min)
+2024-11-21 01:19:41 [scrapy.extensions.logstats] INFO: Crawled 6939 pages (at 97 pages/min), scraped 6690 items (at 94 items/min)
+2024-11-21 01:20:41 [scrapy.extensions.logstats] INFO: Crawled 7037 pages (at 98 pages/min), scraped 6788 items (at 98 items/min)
+2024-11-21 01:21:41 [scrapy.extensions.logstats] INFO: Crawled 7136 pages (at 99 pages/min), scraped 6859 items (at 71 items/min)
+2024-11-21 01:22:41 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <520 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380c9327&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-21 01:22:41 [scrapy.extensions.logstats] INFO: Crawled 7234 pages (at 98 pages/min), scraped 6956 items (at 97 items/min)
+2024-11-21 01:23:41 [scrapy.extensions.logstats] INFO: Crawled 7334 pages (at 100 pages/min), scraped 7056 items (at 100 items/min)
+2024-11-21 01:24:41 [scrapy.extensions.logstats] INFO: Crawled 7433 pages (at 99 pages/min), scraped 7154 items (at 98 items/min)
+2024-11-21 01:25:41 [scrapy.extensions.logstats] INFO: Crawled 7530 pages (at 97 pages/min), scraped 7244 items (at 90 items/min)
+2024-11-21 01:26:41 [scrapy.extensions.logstats] INFO: Crawled 7628 pages (at 98 pages/min), scraped 7336 items (at 92 items/min)
+2024-11-21 01:27:41 [scrapy.extensions.logstats] INFO: Crawled 7723 pages (at 95 pages/min), scraped 7423 items (at 87 items/min)
+2024-11-21 01:28:41 [scrapy.extensions.logstats] INFO: Crawled 7819 pages (at 96 pages/min), scraped 7515 items (at 92 items/min)
+2024-11-21 01:29:41 [scrapy.extensions.logstats] INFO: Crawled 7916 pages (at 97 pages/min), scraped 7600 items (at 85 items/min)
+2024-11-21 01:30:41 [scrapy.extensions.logstats] INFO: Crawled 8016 pages (at 100 pages/min), scraped 7691 items (at 91 items/min)
+2024-11-21 01:31:41 [scrapy.extensions.logstats] INFO: Crawled 8116 pages (at 100 pages/min), scraped 7790 items (at 99 items/min)
+2024-11-21 01:32:41 [scrapy.extensions.logstats] INFO: Crawled 8214 pages (at 98 pages/min), scraped 7887 items (at 97 items/min)
+2024-11-21 01:33:41 [scrapy.extensions.logstats] INFO: Crawled 8309 pages (at 95 pages/min), scraped 7981 items (at 94 items/min)
+2024-11-21 01:34:41 [scrapy.extensions.logstats] INFO: Crawled 8406 pages (at 97 pages/min), scraped 8077 items (at 96 items/min)
+2024-11-21 01:35:41 [scrapy.extensions.logstats] INFO: Crawled 8503 pages (at 97 pages/min), scraped 8175 items (at 98 items/min)
+2024-11-21 01:36:41 [scrapy.extensions.logstats] INFO: Crawled 8524 pages (at 21 pages/min), scraped 8196 items (at 21 items/min)
+2024-11-21 01:37:41 [scrapy.extensions.logstats] INFO: Crawled 8604 pages (at 80 pages/min), scraped 8274 items (at 78 items/min)
+2024-11-21 01:38:41 [scrapy.extensions.logstats] INFO: Crawled 8699 pages (at 95 pages/min), scraped 8368 items (at 94 items/min)
+2024-11-21 01:39:41 [scrapy.extensions.logstats] INFO: Crawled 8797 pages (at 98 pages/min), scraped 8463 items (at 95 items/min)
+2024-11-21 01:40:41 [scrapy.extensions.logstats] INFO: Crawled 8895 pages (at 98 pages/min), scraped 8558 items (at 95 items/min)
+2024-11-21 01:41:41 [scrapy.extensions.logstats] INFO: Crawled 8995 pages (at 100 pages/min), scraped 8652 items (at 94 items/min)
+2024-11-21 01:42:41 [scrapy.extensions.logstats] INFO: Crawled 9089 pages (at 94 pages/min), scraped 8744 items (at 92 items/min)
+2024-11-21 01:43:41 [scrapy.extensions.logstats] INFO: Crawled 9186 pages (at 97 pages/min), scraped 8841 items (at 97 items/min)
+2024-11-21 01:44:41 [scrapy.extensions.logstats] INFO: Crawled 9282 pages (at 96 pages/min), scraped 8936 items (at 95 items/min)
+2024-11-21 01:45:41 [scrapy.extensions.logstats] INFO: Crawled 9375 pages (at 93 pages/min), scraped 8992 items (at 56 items/min)
+2024-11-21 01:46:41 [scrapy.extensions.logstats] INFO: Crawled 9473 pages (at 98 pages/min), scraped 9087 items (at 95 items/min)
+2024-11-21 01:47:41 [scrapy.extensions.logstats] INFO: Crawled 9569 pages (at 96 pages/min), scraped 9181 items (at 94 items/min)
+2024-11-21 01:48:41 [scrapy.extensions.logstats] INFO: Crawled 9669 pages (at 100 pages/min), scraped 9280 items (at 99 items/min)
+2024-11-21 01:49:41 [scrapy.extensions.logstats] INFO: Crawled 9769 pages (at 100 pages/min), scraped 9380 items (at 100 items/min)
+2024-11-21 01:50:41 [scrapy.extensions.logstats] INFO: Crawled 9868 pages (at 99 pages/min), scraped 9477 items (at 97 items/min)
+2024-11-21 01:51:41 [scrapy.extensions.logstats] INFO: Crawled 9966 pages (at 98 pages/min), scraped 9575 items (at 98 items/min)
+2024-11-21 01:52:41 [scrapy.extensions.logstats] INFO: Crawled 10067 pages (at 101 pages/min), scraped 9674 items (at 99 items/min)
+2024-11-21 01:53:41 [scrapy.extensions.logstats] INFO: Crawled 10166 pages (at 99 pages/min), scraped 9772 items (at 98 items/min)
+2024-11-21 01:54:37 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <520 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380be4d2&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-21 01:54:41 [scrapy.extensions.logstats] INFO: Crawled 10263 pages (at 97 pages/min), scraped 9865 items (at 93 items/min)
+2024-11-21 01:55:41 [scrapy.extensions.logstats] INFO: Crawled 10363 pages (at 100 pages/min), scraped 9965 items (at 100 items/min)
+2024-11-21 01:56:41 [scrapy.extensions.logstats] INFO: Crawled 10459 pages (at 96 pages/min), scraped 10056 items (at 91 items/min)
+2024-11-21 01:57:41 [scrapy.extensions.logstats] INFO: Crawled 10556 pages (at 97 pages/min), scraped 10152 items (at 96 items/min)
+2024-11-21 01:58:41 [scrapy.extensions.logstats] INFO: Crawled 10626 pages (at 70 pages/min), scraped 10222 items (at 70 items/min)
+2024-11-21 01:59:41 [scrapy.extensions.logstats] INFO: Crawled 10655 pages (at 29 pages/min), scraped 10250 items (at 28 items/min)
+2024-11-21 02:00:35 [scrapy.core.engine] INFO: Closing spider (finished)
+2024-11-21 02:00:35 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/exception_count': 4,
+ 'downloader/exception_type_count/twisted.web._newclient.ResponseNeverReceived': 4,
+ 'downloader/request_bytes': 7929768,
+ 'downloader/request_count': 11133,
+ 'downloader/request_method_count/GET': 11133,
+ 'downloader/response_bytes': 125056155,
+ 'downloader/response_count': 11129,
+ 'downloader/response_status_count/200': 10735,
+ 'downloader/response_status_count/429': 384,
+ 'downloader/response_status_count/520': 8,
+ 'downloader/response_status_count/524': 1,
+ 'downloader/response_status_count/525': 1,
+ 'dupefilter/filtered': 50,
+ 'elapsed_time_seconds': 6834.283781,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2024, 11, 20, 18, 0, 35, 714819, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 737295331,
+ 'httpcompression/response_count': 10735,
+ 'httperror/response_ignored_count': 9,
+ 'httperror/response_ignored_status_count/520': 8,
+ 'httperror/response_ignored_status_count/525': 1,
+ 'item_scraped_count': 10340,
+ 'log_count/INFO': 132,
+ 'memusage/max': 125386752,
+ 'memusage/startup': 103055360,
+ 'request_depth_max': 2,
+ 'response_received_count': 10744,
+ 'retry/count': 389,
+ 'retry/reason_count/429 Unknown Status': 384,
+ 'retry/reason_count/524 Unknown Status': 1,
+ 'retry/reason_count/twisted.web._newclient.ResponseNeverReceived': 4,
+ 'scheduler/dequeued': 11133,
+ 'scheduler/dequeued/memory': 11133,
+ 'scheduler/enqueued': 11133,
+ 'scheduler/enqueued/memory': 11133,
+ 'start_time': datetime.datetime(2024, 11, 20, 16, 6, 41, 431038, tzinfo=datetime.timezone.utc)}
+2024-11-21 02:00:35 [scrapy.core.engine] INFO: Spider closed (finished)

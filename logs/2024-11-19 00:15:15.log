@@ -1,0 +1,598 @@
+2024-11-19 00:15:15 [scrapy.utils.log] INFO: Scrapy 2.11.2 started (bot: DataSource)
+2024-11-19 00:15:15 [scrapy.utils.log] INFO: Versions: lxml 5.3.0.0, libxml2 2.12.9, cssselect 1.2.0, parsel 1.9.1, w3lib 2.2.1, Twisted 24.10.0, Python 3.9.6 (default, Oct  4 2024, 08:01:31) - [Clang 16.0.0 (clang-1600.0.26.4)], pyOpenSSL 24.2.1 (OpenSSL 3.3.2 3 Sep 2024), cryptography 43.0.3, Platform macOS-15.1-arm64-arm-64bit
+2024-11-19 00:15:15 [scrapy.addons] INFO: Enabled addons:
+[]
+2024-11-19 00:15:15 [scrapy.extensions.telnet] INFO: Telnet Password: 6369949fc73e6d99
+2024-11-19 00:15:15 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2024-11-19 00:15:15 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'DataSource',
+ 'CONCURRENT_REQUESTS': 32,
+ 'DOWNLOAD_DELAY': 0.5,
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FILE': 'logs/2024-11-19 00:15:15.log',
+ 'LOG_LEVEL': 20,
+ 'NEWSPIDER_MODULE': 'DataSource.spiders',
+ 'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
+ 'SPIDER_MODULES': ['DataSource.spiders'],
+ 'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor'}
+2024-11-19 00:15:15 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2024-11-19 00:15:15 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2024-11-19 00:15:16 [scrapy.middleware] INFO: Enabled item pipelines:
+['DataSource.pipelines.DatasourcePipeline']
+2024-11-19 00:15:16 [scrapy.core.engine] INFO: Spider opened
+2024-11-19 00:15:16 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-11-19 00:15:16 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2024-11-19 00:16:16 [scrapy.extensions.logstats] INFO: Crawled 97 pages (at 97 pages/min), scraped 23 items (at 23 items/min)
+2024-11-19 00:17:16 [scrapy.extensions.logstats] INFO: Crawled 196 pages (at 99 pages/min), scraped 120 items (at 97 items/min)
+2024-11-19 00:18:16 [scrapy.extensions.logstats] INFO: Crawled 295 pages (at 99 pages/min), scraped 217 items (at 97 items/min)
+2024-11-19 00:19:16 [scrapy.extensions.logstats] INFO: Crawled 395 pages (at 100 pages/min), scraped 314 items (at 97 items/min)
+2024-11-19 00:20:16 [scrapy.extensions.logstats] INFO: Crawled 494 pages (at 99 pages/min), scraped 413 items (at 99 items/min)
+2024-11-19 00:21:16 [scrapy.extensions.logstats] INFO: Crawled 592 pages (at 98 pages/min), scraped 510 items (at 97 items/min)
+2024-11-19 00:22:16 [scrapy.extensions.logstats] INFO: Crawled 692 pages (at 100 pages/min), scraped 609 items (at 99 items/min)
+2024-11-19 00:23:16 [scrapy.extensions.logstats] INFO: Crawled 788 pages (at 96 pages/min), scraped 703 items (at 94 items/min)
+2024-11-19 00:24:16 [scrapy.extensions.logstats] INFO: Crawled 884 pages (at 96 pages/min), scraped 799 items (at 96 items/min)
+2024-11-19 00:25:16 [scrapy.extensions.logstats] INFO: Crawled 987 pages (at 103 pages/min), scraped 902 items (at 103 items/min)
+2024-11-19 00:26:16 [scrapy.extensions.logstats] INFO: Crawled 1087 pages (at 100 pages/min), scraped 999 items (at 97 items/min)
+2024-11-19 00:27:16 [scrapy.extensions.logstats] INFO: Crawled 1185 pages (at 98 pages/min), scraped 1097 items (at 98 items/min)
+2024-11-19 00:28:16 [scrapy.extensions.logstats] INFO: Crawled 1281 pages (at 96 pages/min), scraped 1192 items (at 95 items/min)
+2024-11-19 00:29:16 [scrapy.extensions.logstats] INFO: Crawled 1386 pages (at 105 pages/min), scraped 1292 items (at 100 items/min)
+2024-11-19 00:30:16 [scrapy.extensions.logstats] INFO: Crawled 1483 pages (at 97 pages/min), scraped 1387 items (at 95 items/min)
+2024-11-19 00:31:16 [scrapy.extensions.logstats] INFO: Crawled 1581 pages (at 98 pages/min), scraped 1483 items (at 96 items/min)
+2024-11-19 00:32:16 [scrapy.extensions.logstats] INFO: Crawled 1680 pages (at 99 pages/min), scraped 1566 items (at 83 items/min)
+2024-11-19 00:33:16 [scrapy.extensions.logstats] INFO: Crawled 1780 pages (at 100 pages/min), scraped 1660 items (at 94 items/min)
+2024-11-19 00:34:16 [scrapy.extensions.logstats] INFO: Crawled 1877 pages (at 97 pages/min), scraped 1722 items (at 62 items/min)
+2024-11-19 00:35:16 [scrapy.extensions.logstats] INFO: Crawled 1977 pages (at 100 pages/min), scraped 1822 items (at 100 items/min)
+2024-11-19 00:36:16 [scrapy.extensions.logstats] INFO: Crawled 2075 pages (at 98 pages/min), scraped 1918 items (at 96 items/min)
+2024-11-19 00:37:16 [scrapy.extensions.logstats] INFO: Crawled 2099 pages (at 24 pages/min), scraped 1942 items (at 24 items/min)
+2024-11-19 00:38:16 [scrapy.extensions.logstats] INFO: Crawled 2176 pages (at 77 pages/min), scraped 2019 items (at 77 items/min)
+2024-11-19 00:39:16 [scrapy.extensions.logstats] INFO: Crawled 2276 pages (at 100 pages/min), scraped 2117 items (at 98 items/min)
+2024-11-19 00:40:16 [scrapy.extensions.logstats] INFO: Crawled 2377 pages (at 101 pages/min), scraped 2217 items (at 100 items/min)
+2024-11-19 00:41:16 [scrapy.extensions.logstats] INFO: Crawled 2477 pages (at 100 pages/min), scraped 2317 items (at 100 items/min)
+2024-11-19 00:42:16 [scrapy.extensions.logstats] INFO: Crawled 2576 pages (at 99 pages/min), scraped 2412 items (at 95 items/min)
+2024-11-19 00:43:16 [scrapy.extensions.logstats] INFO: Crawled 2673 pages (at 97 pages/min), scraped 2506 items (at 94 items/min)
+2024-11-19 00:44:16 [scrapy.extensions.logstats] INFO: Crawled 2770 pages (at 97 pages/min), scraped 2603 items (at 97 items/min)
+2024-11-19 00:45:16 [scrapy.extensions.logstats] INFO: Crawled 2865 pages (at 95 pages/min), scraped 2698 items (at 95 items/min)
+2024-11-19 00:46:16 [scrapy.extensions.logstats] INFO: Crawled 2960 pages (at 95 pages/min), scraped 2792 items (at 94 items/min)
+2024-11-19 00:46:47 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <520 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38068134&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 00:46:50 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <520 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38067497&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 00:47:16 [scrapy.extensions.logstats] INFO: Crawled 3060 pages (at 100 pages/min), scraped 2889 items (at 97 items/min)
+2024-11-19 00:48:16 [scrapy.extensions.logstats] INFO: Crawled 3158 pages (at 98 pages/min), scraped 2982 items (at 93 items/min)
+2024-11-19 00:49:16 [scrapy.extensions.logstats] INFO: Crawled 3253 pages (at 95 pages/min), scraped 3076 items (at 94 items/min)
+2024-11-19 00:50:16 [scrapy.extensions.logstats] INFO: Crawled 3350 pages (at 97 pages/min), scraped 3174 items (at 98 items/min)
+2024-11-19 00:51:16 [scrapy.extensions.logstats] INFO: Crawled 3450 pages (at 100 pages/min), scraped 3270 items (at 96 items/min)
+2024-11-19 00:51:48 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <520 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380608ec&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 00:52:16 [scrapy.extensions.logstats] INFO: Crawled 3545 pages (at 95 pages/min), scraped 3363 items (at 93 items/min)
+2024-11-19 00:53:16 [scrapy.extensions.logstats] INFO: Crawled 3640 pages (at 95 pages/min), scraped 3458 items (at 95 items/min)
+2024-11-19 00:54:16 [scrapy.extensions.logstats] INFO: Crawled 3740 pages (at 100 pages/min), scraped 3557 items (at 99 items/min)
+2024-11-19 00:55:12 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <520 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38064db6&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 00:55:16 [scrapy.extensions.logstats] INFO: Crawled 3842 pages (at 102 pages/min), scraped 3656 items (at 99 items/min)
+2024-11-19 00:56:16 [scrapy.extensions.logstats] INFO: Crawled 3941 pages (at 99 pages/min), scraped 3754 items (at 98 items/min)
+2024-11-19 00:57:16 [scrapy.extensions.logstats] INFO: Crawled 4036 pages (at 95 pages/min), scraped 3848 items (at 94 items/min)
+2024-11-19 00:58:16 [scrapy.extensions.logstats] INFO: Crawled 4135 pages (at 99 pages/min), scraped 3945 items (at 97 items/min)
+2024-11-19 00:59:16 [scrapy.extensions.logstats] INFO: Crawled 4234 pages (at 99 pages/min), scraped 4042 items (at 97 items/min)
+2024-11-19 01:00:16 [scrapy.extensions.logstats] INFO: Crawled 4332 pages (at 98 pages/min), scraped 4138 items (at 96 items/min)
+2024-11-19 01:01:16 [scrapy.extensions.logstats] INFO: Crawled 4428 pages (at 96 pages/min), scraped 4232 items (at 94 items/min)
+2024-11-19 01:02:16 [scrapy.extensions.logstats] INFO: Crawled 4527 pages (at 99 pages/min), scraped 4331 items (at 99 items/min)
+2024-11-19 01:03:16 [scrapy.extensions.logstats] INFO: Crawled 4625 pages (at 98 pages/min), scraped 4428 items (at 97 items/min)
+2024-11-19 01:04:16 [scrapy.extensions.logstats] INFO: Crawled 4723 pages (at 98 pages/min), scraped 4491 items (at 63 items/min)
+2024-11-19 01:05:16 [scrapy.extensions.logstats] INFO: Crawled 4819 pages (at 96 pages/min), scraped 4587 items (at 96 items/min)
+2024-11-19 01:06:16 [scrapy.extensions.logstats] INFO: Crawled 4916 pages (at 97 pages/min), scraped 4683 items (at 96 items/min)
+2024-11-19 01:07:16 [scrapy.extensions.logstats] INFO: Crawled 5012 pages (at 96 pages/min), scraped 4779 items (at 96 items/min)
+2024-11-19 01:08:16 [scrapy.extensions.logstats] INFO: Crawled 5111 pages (at 99 pages/min), scraped 4877 items (at 98 items/min)
+2024-11-19 01:09:16 [scrapy.extensions.logstats] INFO: Crawled 5209 pages (at 98 pages/min), scraped 4974 items (at 97 items/min)
+2024-11-19 01:10:16 [scrapy.extensions.logstats] INFO: Crawled 5309 pages (at 100 pages/min), scraped 5073 items (at 99 items/min)
+2024-11-19 01:11:16 [scrapy.extensions.logstats] INFO: Crawled 5408 pages (at 99 pages/min), scraped 5171 items (at 98 items/min)
+2024-11-19 01:12:16 [scrapy.extensions.logstats] INFO: Crawled 5503 pages (at 95 pages/min), scraped 5265 items (at 94 items/min)
+2024-11-19 01:13:16 [scrapy.extensions.logstats] INFO: Crawled 5600 pages (at 97 pages/min), scraped 5360 items (at 95 items/min)
+2024-11-19 01:14:16 [scrapy.extensions.logstats] INFO: Crawled 5698 pages (at 98 pages/min), scraped 5458 items (at 98 items/min)
+2024-11-19 01:15:16 [scrapy.extensions.logstats] INFO: Crawled 5794 pages (at 96 pages/min), scraped 5550 items (at 92 items/min)
+2024-11-19 01:16:16 [scrapy.extensions.logstats] INFO: Crawled 5895 pages (at 101 pages/min), scraped 5651 items (at 101 items/min)
+2024-11-19 01:17:16 [scrapy.extensions.logstats] INFO: Crawled 5994 pages (at 99 pages/min), scraped 5748 items (at 97 items/min)
+2024-11-19 01:18:16 [scrapy.extensions.logstats] INFO: Crawled 6088 pages (at 94 pages/min), scraped 5843 items (at 95 items/min)
+2024-11-19 01:19:16 [scrapy.extensions.logstats] INFO: Crawled 6187 pages (at 99 pages/min), scraped 5940 items (at 97 items/min)
+2024-11-19 01:20:16 [scrapy.extensions.logstats] INFO: Crawled 6283 pages (at 96 pages/min), scraped 6037 items (at 97 items/min)
+2024-11-19 01:20:55 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3803b56d&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:20:59 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3802eae0&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:21:16 [scrapy.extensions.logstats] INFO: Crawled 6380 pages (at 97 pages/min), scraped 6132 items (at 95 items/min)
+2024-11-19 01:22:16 [scrapy.extensions.logstats] INFO: Crawled 6478 pages (at 98 pages/min), scraped 6229 items (at 97 items/min)
+2024-11-19 01:23:16 [scrapy.extensions.logstats] INFO: Crawled 6577 pages (at 99 pages/min), scraped 6327 items (at 98 items/min)
+2024-11-19 01:24:16 [scrapy.extensions.logstats] INFO: Crawled 6673 pages (at 96 pages/min), scraped 6420 items (at 93 items/min)
+2024-11-19 01:25:16 [scrapy.extensions.logstats] INFO: Crawled 6771 pages (at 98 pages/min), scraped 6519 items (at 99 items/min)
+2024-11-19 01:26:16 [scrapy.extensions.logstats] INFO: Crawled 6867 pages (at 96 pages/min), scraped 6615 items (at 96 items/min)
+2024-11-19 01:27:16 [scrapy.extensions.logstats] INFO: Crawled 6964 pages (at 97 pages/min), scraped 6711 items (at 96 items/min)
+2024-11-19 01:28:16 [scrapy.extensions.logstats] INFO: Crawled 7064 pages (at 100 pages/min), scraped 6808 items (at 97 items/min)
+2024-11-19 01:29:16 [scrapy.extensions.logstats] INFO: Crawled 7162 pages (at 98 pages/min), scraped 6902 items (at 94 items/min)
+2024-11-19 01:30:16 [scrapy.extensions.logstats] INFO: Crawled 7265 pages (at 103 pages/min), scraped 7004 items (at 102 items/min)
+2024-11-19 01:31:16 [scrapy.extensions.logstats] INFO: Crawled 7363 pages (at 98 pages/min), scraped 7076 items (at 72 items/min)
+2024-11-19 01:32:16 [scrapy.extensions.logstats] INFO: Crawled 7461 pages (at 98 pages/min), scraped 7174 items (at 98 items/min)
+2024-11-19 01:33:16 [scrapy.extensions.logstats] INFO: Crawled 7559 pages (at 98 pages/min), scraped 7271 items (at 97 items/min)
+2024-11-19 01:34:16 [scrapy.extensions.logstats] INFO: Crawled 7653 pages (at 94 pages/min), scraped 7365 items (at 94 items/min)
+2024-11-19 01:35:16 [scrapy.extensions.logstats] INFO: Crawled 7754 pages (at 101 pages/min), scraped 7466 items (at 101 items/min)
+2024-11-19 01:36:16 [scrapy.extensions.logstats] INFO: Crawled 7856 pages (at 102 pages/min), scraped 7566 items (at 100 items/min)
+2024-11-19 01:37:16 [scrapy.extensions.logstats] INFO: Crawled 7953 pages (at 97 pages/min), scraped 7662 items (at 96 items/min)
+2024-11-19 01:38:16 [scrapy.extensions.logstats] INFO: Crawled 8052 pages (at 99 pages/min), scraped 7762 items (at 100 items/min)
+2024-11-19 01:39:16 [scrapy.extensions.logstats] INFO: Crawled 8149 pages (at 97 pages/min), scraped 7859 items (at 97 items/min)
+2024-11-19 01:40:16 [scrapy.extensions.logstats] INFO: Crawled 8247 pages (at 98 pages/min), scraped 7956 items (at 97 items/min)
+2024-11-19 01:41:16 [scrapy.extensions.logstats] INFO: Crawled 8347 pages (at 100 pages/min), scraped 8053 items (at 97 items/min)
+2024-11-19 01:42:16 [scrapy.extensions.logstats] INFO: Crawled 8447 pages (at 100 pages/min), scraped 8134 items (at 81 items/min)
+2024-11-19 01:43:16 [scrapy.extensions.logstats] INFO: Crawled 8549 pages (at 102 pages/min), scraped 8231 items (at 97 items/min)
+2024-11-19 01:44:16 [scrapy.extensions.logstats] INFO: Crawled 8646 pages (at 97 pages/min), scraped 8326 items (at 95 items/min)
+2024-11-19 01:45:16 [scrapy.extensions.logstats] INFO: Crawled 8744 pages (at 98 pages/min), scraped 8424 items (at 98 items/min)
+2024-11-19 01:46:16 [scrapy.extensions.logstats] INFO: Crawled 8847 pages (at 103 pages/min), scraped 8522 items (at 98 items/min)
+2024-11-19 01:47:16 [scrapy.extensions.logstats] INFO: Crawled 8945 pages (at 98 pages/min), scraped 8617 items (at 95 items/min)
+2024-11-19 01:47:25 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38061357&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:47:31 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805e6e9&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:47:32 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38060768&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:47:36 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38061e68&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:47:41 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805fc80&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:47:43 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3806005f&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:47:46 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805dcca&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:47:51 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3804dbc9&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:47:56 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38061485&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:47:57 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38061d38&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:48:02 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805d85f&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:48:06 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38064a4e&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:48:10 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380634e7&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:48:11 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38061612&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:48:16 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805b925&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:48:16 [scrapy.extensions.logstats] INFO: Crawled 9044 pages (at 99 pages/min), scraped 8697 items (at 80 items/min)
+2024-11-19 01:48:17 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805bc34&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:48:21 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805d8a5&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:48:26 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38053cac&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:48:28 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805dbf1&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:48:32 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380398d1&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:48:33 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38051751&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:48:38 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805d383&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:48:43 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805d492&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:48:44 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805b915&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:48:50 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805d14e&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:48:54 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805ef7d&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:49:00 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38060bfa&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:49:06 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805f386&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:49:07 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38060a3c&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:49:12 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805a32d&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:49:16 [scrapy.extensions.logstats] INFO: Crawled 9141 pages (at 97 pages/min), scraped 8774 items (at 77 items/min)
+2024-11-19 01:49:17 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805a972&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:49:20 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805a8a2&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:49:23 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380588b4&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:49:29 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38057f02&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:49:31 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380599b9&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:49:35 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805b1ed&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:49:39 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805a4d8&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:49:40 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805c29c&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:49:45 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805a843&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:49:49 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380593bd&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:49:50 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38056642&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:49:56 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805b10e&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:50:01 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805c1ec&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:50:02 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805ca1f&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:50:07 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805c326&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:50:12 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38054da9&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:50:15 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38053961&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:50:16 [scrapy.extensions.logstats] INFO: Crawled 9237 pages (at 96 pages/min), scraped 8849 items (at 75 items/min)
+2024-11-19 01:50:19 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38054b43&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:50:28 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38054e25&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:50:28 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38054d9c&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:50:40 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38057073&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:50:42 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38041e34&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:50:45 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38056e80&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:50:48 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38057ff6&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:50:49 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380555df&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:50:52 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38057bf4&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:50:54 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38058fd7&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:50:59 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38058c9d&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:51:01 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38057f3f&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:51:07 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380334af&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:51:10 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3803602e&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:51:12 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38035204&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:51:16 [scrapy.extensions.logstats] INFO: Crawled 9337 pages (at 100 pages/min), scraped 8924 items (at 75 items/min)
+2024-11-19 01:51:18 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38038576&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:51:23 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380399cd&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:51:27 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38053b1a&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:51:28 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38054189&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:51:30 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3803e89b&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:51:32 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38038b71&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:51:38 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3803c3f9&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:51:38 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3803404a&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:51:43 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3803977c&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:51:44 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3803511d&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:51:49 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3803afd2&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:51:54 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380439fa&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:51:57 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3803d80d&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:52:00 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3803de73&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:52:05 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3802da60&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:52:08 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380336c1&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:52:12 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38037a2f&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:52:16 [scrapy.extensions.logstats] INFO: Crawled 9436 pages (at 99 pages/min), scraped 8999 items (at 75 items/min)
+2024-11-19 01:52:17 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38035911&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:52:22 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3803d149&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:52:27 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38059fd2&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:52:30 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805a38b&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:52:31 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38059e15&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:52:34 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38054bc6&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:52:35 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380579d2&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:52:41 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38057667&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:52:43 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38056476&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:52:47 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380569e3&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:52:52 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38055655&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:52:56 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38056405&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:52:58 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380560bf&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:53:01 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38054a15&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:53:11 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38060770&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:53:15 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38061e6d&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:53:16 [scrapy.extensions.logstats] INFO: Crawled 9535 pages (at 99 pages/min), scraped 9081 items (at 82 items/min)
+2024-11-19 01:53:20 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/airport.json?code=SJW&plugin%5B%5D=schedule&plugin-setting%5Bschedule%5D%5Bmode%5D=arrivals&plugin-setting%5Bschedule%5D%5Btimestamp%5D=1731946516&limit=100&page=1&token=5bzHsWqW2S47UmsFs_vCbm-UwcbKgDq5AMkg6rxsDbU>: HTTP status code is not handled or not allowed
+2024-11-19 01:53:22 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/airport.json?code=NNG&plugin%5B%5D=schedule&plugin-setting%5Bschedule%5D%5Bmode%5D=arrivals&plugin-setting%5Bschedule%5D%5Btimestamp%5D=1731946516&limit=100&page=1&token=5bzHsWqW2S47UmsFs_vCbm-UwcbKgDq5AMkg6rxsDbU>: HTTP status code is not handled or not allowed
+2024-11-19 01:53:24 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/airport.json?code=HET&plugin%5B%5D=schedule&plugin-setting%5Bschedule%5D%5Bmode%5D=arrivals&plugin-setting%5Bschedule%5D%5Btimestamp%5D=1731946516&limit=100&page=1&token=5bzHsWqW2S47UmsFs_vCbm-UwcbKgDq5AMkg6rxsDbU>: HTTP status code is not handled or not allowed
+2024-11-19 01:53:28 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/airport.json?code=LJG&plugin%5B%5D=schedule&plugin-setting%5Bschedule%5D%5Bmode%5D=arrivals&plugin-setting%5Bschedule%5D%5Btimestamp%5D=1731946516&limit=100&page=1&token=5bzHsWqW2S47UmsFs_vCbm-UwcbKgDq5AMkg6rxsDbU>: HTTP status code is not handled or not allowed
+2024-11-19 01:53:31 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/airport.json?code=CGO&plugin%5B%5D=schedule&plugin-setting%5Bschedule%5D%5Bmode%5D=arrivals&plugin-setting%5Bschedule%5D%5Btimestamp%5D=1731946516&limit=100&page=-4&token=5bzHsWqW2S47UmsFs_vCbm-UwcbKgDq5AMkg6rxsDbU>: HTTP status code is not handled or not allowed
+2024-11-19 01:53:37 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/airport.json?code=SYX&plugin%5B%5D=schedule&plugin-setting%5Bschedule%5D%5Bmode%5D=arrivals&plugin-setting%5Bschedule%5D%5Btimestamp%5D=1731946516&limit=100&page=-1&token=5bzHsWqW2S47UmsFs_vCbm-UwcbKgDq5AMkg6rxsDbU>: HTTP status code is not handled or not allowed
+2024-11-19 01:53:41 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38060f01&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:53:44 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38064d3e&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:53:46 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3806318a&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:53:51 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38055da1&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:53:57 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3803dbe4&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:54:02 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805b8f7&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:54:06 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380577df&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:54:10 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805c705&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:54:14 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805c5c7&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:54:16 [scrapy.extensions.logstats] INFO: Crawled 9633 pages (at 98 pages/min), scraped 9135 items (at 54 items/min)
+2024-11-19 01:54:18 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38060015&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:54:20 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380609e3&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:54:25 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38063d64&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:54:27 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38060cca&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:54:31 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38067ebe&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:54:33 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38066d24&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:54:39 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3806a654&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:54:41 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3806965b&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:54:46 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38069a41&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:54:47 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3806a979&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:54:53 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3803db4e&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:54:56 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38054d8b&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:54:58 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38054059&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:55:01 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380578d6&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:55:04 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380565a2&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:55:12 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380560cf&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:55:16 [scrapy.extensions.logstats] INFO: Crawled 9733 pages (at 100 pages/min), scraped 9220 items (at 85 items/min)
+2024-11-19 01:55:17 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805b8f2&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:55:20 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805b87c&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:55:21 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38057ef2&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:55:26 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805b3e9&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:55:30 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805a60f&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:55:31 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805c770&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:55:36 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38049019&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:55:39 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805c408&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:55:41 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805e8d5&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:55:45 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3806108c&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:55:46 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38060813&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:55:51 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38066896&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:55:57 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38065ecc&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:56:01 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38066c93&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:56:02 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38066b7e&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:56:06 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38066d21&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:56:08 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38069c66&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:56:13 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3806eb45&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:56:16 [scrapy.extensions.logstats] INFO: Crawled 9833 pages (at 100 pages/min), scraped 9298 items (at 78 items/min)
+2024-11-19 01:56:17 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805212f&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:56:18 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38052a3e&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:56:24 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380434aa&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:56:25 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38057ef7&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:56:31 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805a25c&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:56:36 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805bdc9&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:56:39 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805b50e&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:56:42 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805ffad&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:56:47 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38061298&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:56:48 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380606ad&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:56:50 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38061242&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:56:51 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38064c5c&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:56:52 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805dfc5&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:56:54 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380647b9&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:56:56 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380671d1&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:56:57 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38064f6c&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:56:58 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380693bd&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:56:59 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38065c79&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:57:01 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380369b3&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:57:03 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38040cfb&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:57:05 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3803fb8f&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:57:07 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38038661&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:57:09 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380518d2&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:57:11 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380539fd&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:57:12 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38053292&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:57:13 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38055a4d&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:57:14 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38053dee&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:57:15 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3803dd59&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:57:16 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38056e00&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:57:16 [scrapy.extensions.logstats] INFO: Crawled 9930 pages (at 97 pages/min), scraped 9366 items (at 68 items/min)
+2024-11-19 01:57:18 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380540f0&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:57:19 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380535a1&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:57:21 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380556ed&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:57:22 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38053335&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:57:24 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380551b7&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:57:26 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38055b5b&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:57:27 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380542af&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:57:29 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38056d99&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:57:30 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38059b7a&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:57:32 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38056268&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:57:33 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805472f&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:57:35 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38058a00&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:57:37 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38057be0&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:57:38 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805a256&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:57:40 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38059147&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:57:41 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805d3c8&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:57:43 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38054a2a&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:57:45 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380594ec&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:57:46 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38059322&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:57:48 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805c2ac&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:57:49 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38058249&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:57:51 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805c79b&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:57:53 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805c873&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:57:54 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380595da&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:57:56 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805ccff&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:57:57 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38059dff&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:57:58 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805e87b&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:58:01 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3806138e&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:58:02 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38061617&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:58:03 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38060c4b&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:58:05 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3806201c&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:58:07 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3806290a&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:58:08 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38060ccd&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:58:10 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38060521&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:58:12 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38064821&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:58:13 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38062d70&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:58:15 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380643f3&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:58:16 [scrapy.extensions.logstats] INFO: Crawled 10028 pages (at 98 pages/min), scraped 9427 items (at 61 items/min)
+2024-11-19 01:58:17 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380642c5&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:58:19 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380641d1&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:58:20 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38056477&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:58:21 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3806661c&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:58:22 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805f4d0&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:58:24 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38064f38&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:58:26 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38063811&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:58:27 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3806657a&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:58:28 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38065f9c&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:58:30 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380666d9&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:58:31 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3806387d&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:58:33 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380687b4&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:58:36 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38069f12&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:58:38 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38066629&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:58:40 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380670de&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:58:42 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3806b51e&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:58:43 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3806b3bc&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:58:45 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3806bf02&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:58:46 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380666d3&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:58:47 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3806ce90&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:58:50 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3806a702&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:58:51 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3806c495&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:58:53 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3806b877&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:58:55 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3804385a&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:58:57 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805471e&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:58:58 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38057c54&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:58:59 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38056b74&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:59:00 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38057104&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:59:03 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380573f5&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:59:04 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38058672&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:59:05 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380574db&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:59:05 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38059552&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:59:07 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38058bc3&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:59:09 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38059efd&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:59:11 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805a0a7&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:59:12 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38058ffc&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:59:14 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38057d08&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:59:16 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38057a70&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:59:16 [scrapy.extensions.logstats] INFO: Crawled 10125 pages (at 97 pages/min), scraped 9486 items (at 59 items/min)
+2024-11-19 01:59:17 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38058f75&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:59:19 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380596af&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:59:20 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38059ad8&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:59:22 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805c7fb&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:59:23 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805a5a5&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:59:24 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38057e87&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:59:26 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805b606&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:59:28 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805e164&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:59:30 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805996e&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:59:31 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805adcb&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:59:32 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805dac1&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:59:34 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805d82c&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:59:35 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38059f54&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:59:37 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805c822&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:59:38 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805e564&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:59:40 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805d9c5&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:59:42 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3806087c&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:59:43 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805ebd5&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:59:45 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805d249&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:59:46 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805e8df&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:59:48 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38060019&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:59:50 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805fac0&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:59:52 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38038f54&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:59:53 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3803de21&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:59:55 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3803e7ce&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:59:56 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3803dbe7&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 01:59:58 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3803a89e&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:00:00 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3804ca71&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:00:01 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38053e70&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:00:02 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3804f20c&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:00:04 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805417d&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:00:05 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38054793&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:00:07 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380540ee&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:00:09 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3803ed2b&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:00:10 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38055164&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:00:12 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38053182&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:00:14 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3806005e&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:00:15 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38060b30&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:00:16 [scrapy.extensions.logstats] INFO: Crawled 10224 pages (at 99 pages/min), scraped 9546 items (at 60 items/min)
+2024-11-19 02:00:17 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380617bb&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:00:18 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38060f50&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:00:20 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805ed1f&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:00:21 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380613c4&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:00:22 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38063759&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:00:24 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3806200f&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:00:26 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380640fb&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:00:28 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380658ef&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:00:29 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380647b4&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:00:30 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38063e5b&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:00:31 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38064080&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:00:32 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38061f3b&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:00:34 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380622e9&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:00:36 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38065cb8&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:00:38 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38065dc1&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:00:40 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38067754&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:00:41 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3806423b&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:00:43 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38064c74&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:00:44 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38066e40&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:00:44 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38063f2f&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:00:46 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38067647&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:00:47 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38066c9a&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:00:49 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38065ce1&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:00:51 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38066c7d&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:00:53 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380635e0&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:00:54 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3806575f&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:00:56 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3806bcda&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:00:58 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38067045&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:01:00 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3806ca61&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:01:02 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3806a364&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:01:03 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3806c47c&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:01:05 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805867c&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:01:06 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38056e18&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:01:07 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805a093&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:01:09 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805a3ee&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:01:10 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805859f&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:01:12 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38058929&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:01:13 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38057d8b&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:01:15 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38057d80&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:01:16 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38058e03&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:01:16 [scrapy.extensions.logstats] INFO: Crawled 10323 pages (at 99 pages/min), scraped 9601 items (at 55 items/min)
+2024-11-19 02:01:18 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805b9b0&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:01:19 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38058253&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:01:21 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380592c0&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:01:22 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805c606&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:01:24 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805e2ad&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:01:26 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805c4c6&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:01:28 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805a83d&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:01:29 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805de2c&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:01:31 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805c826&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:01:32 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805e5a8&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:01:34 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805d60f&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:01:36 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805d3b0&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:01:38 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805d258&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:01:39 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805b648&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:01:41 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805f3fe&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:01:43 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380601c3&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:01:45 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805c70f&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:01:47 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805e3c8&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:01:48 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3806174b&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:01:51 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38061678&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:01:53 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805e654&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:01:55 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805fada&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:01:56 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3806133f&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:01:58 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380625ff&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:02:00 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38062349&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:02:01 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3804d94d&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:02:03 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38043859&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:02:03 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38062eb0&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:02:05 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380430ab&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:02:06 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805d6c0&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:02:08 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380529f7&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:02:10 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38052d8c&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:02:12 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38054c57&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:02:14 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380557e2&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:02:15 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805329c&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:02:16 [scrapy.extensions.logstats] INFO: Crawled 10419 pages (at 96 pages/min), scraped 9660 items (at 59 items/min)
+2024-11-19 02:02:17 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38055149&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:02:20 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380535a8&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:02:21 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38056b7f&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:02:24 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38056037&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:02:25 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380536e2&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:02:31 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38054608&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:02:33 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38057461&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:02:37 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38055fbb&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:02:38 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38040c8b&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:02:40 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380584af&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:02:41 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805636b&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:02:45 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38052a2d&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:02:49 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38055883&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:02:52 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38056384&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:02:54 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38057f09&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:02:55 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38057069&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:02:58 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380571f1&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:02:59 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38058f53&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:03:02 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805a5ac&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:03:06 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805dc32&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:03:09 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380614d3&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:03:09 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38061ed1&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:03:11 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380600ee&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:03:13 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805f94b&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:03:16 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38063814&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:03:16 [scrapy.extensions.logstats] INFO: Crawled 10519 pages (at 100 pages/min), scraped 9733 items (at 73 items/min)
+2024-11-19 02:03:20 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38064ef1&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:03:21 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3806423a&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:03:25 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3806966a&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:03:27 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38067c26&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:03:30 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805afe6&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:03:34 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805b2c5&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:03:38 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38059731&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:03:42 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805afd5&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:03:45 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805dfd5&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:03:46 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3805f38f&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:03:50 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=3806011c&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:03:54 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38060c3d&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:03:58 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38060076&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:03:59 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38062d0c&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:04:02 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=380622e5&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:04:05 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38069e6e&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:04:08 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38068b85&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:04:10 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <402 https://api.flightradar24.com/common/v1/flight-playback.json?flightId=38066f37&timestamp=&token=&pk=>: HTTP status code is not handled or not allowed
+2024-11-19 02:04:12 [scrapy.core.engine] INFO: Closing spider (finished)
+2024-11-19 02:04:12 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 7626986,
+ 'downloader/request_count': 10708,
+ 'downloader/request_method_count/GET': 10708,
+ 'downloader/response_bytes': 121339860,
+ 'downloader/response_count': 10708,
+ 'downloader/response_status_count/200': 10199,
+ 'downloader/response_status_count/402': 406,
+ 'downloader/response_status_count/429': 98,
+ 'downloader/response_status_count/520': 4,
+ 'downloader/response_status_count/524': 1,
+ 'dupefilter/filtered': 46,
+ 'elapsed_time_seconds': 6536.135777,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2024, 11, 18, 18, 4, 12, 833169, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 726533457,
+ 'httpcompression/response_count': 10199,
+ 'httperror/response_ignored_count': 410,
+ 'httperror/response_ignored_status_count/402': 406,
+ 'httperror/response_ignored_status_count/520': 4,
+ 'item_scraped_count': 9805,
+ 'log_count/INFO': 528,
+ 'memusage/max': 117014528,
+ 'memusage/startup': 100663296,
+ 'request_depth_max': 2,
+ 'response_received_count': 10609,
+ 'retry/count': 99,
+ 'retry/reason_count/429 Unknown Status': 98,
+ 'retry/reason_count/524 Unknown Status': 1,
+ 'scheduler/dequeued': 10708,
+ 'scheduler/dequeued/memory': 10708,
+ 'scheduler/enqueued': 10708,
+ 'scheduler/enqueued/memory': 10708,
+ 'start_time': datetime.datetime(2024, 11, 18, 16, 15, 16, 697392, tzinfo=datetime.timezone.utc)}
+2024-11-19 02:04:12 [scrapy.core.engine] INFO: Spider closed (finished)
